@@ -1,13 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	line-height: inherit;
+	/* min-height: -webkit-fill-available; */
+	/* height: -webkit-fill-available; */
+	background: #111;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bg-box {
+	background: url(https://i.imgur.com/ASFONjI.png);
+
+	object-fit: cover;
+	width: 100%;
+	background-size: contain;
+	background-position: left;
 }
