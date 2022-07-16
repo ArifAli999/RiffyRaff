@@ -15,7 +15,7 @@ import ProjectPage from './components/ProjectPage';
 function App() {
 
   return (
-    <div className=" bg-lightblack w-full min-h-screen ">
+    <div className=" bg-lightblack w-full min-h-screen overflow-hidden ">
 
       <div className='flex flex-col w-full min-h-[100vh]'>
         <Header />
