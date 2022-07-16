@@ -9,7 +9,7 @@ function ServicesSect() {
                 <div className='flex-1 flex  w-full flex-col  shadow-md shadow-black/80 h-full'>
                     <div className=' p-4 bg-purple-500 border-r border-purple-600 border-b-purple-800 border-b-4 '>
                         <h2 className='text-white text-xl font-popp tracking-wider	 font-[300] uppercase'>
-                            DISCUSS
+                            DOCUMENT
                         </h2>
                     </div>
 

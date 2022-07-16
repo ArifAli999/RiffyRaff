@@ -20,3 +20,33 @@ body {
 	background-size: contain;
 	background-position: left;
 }
+
+.customb {
+	border-image-source: linear-gradient(
+		to left,
+		rgb(100 15 241 / 80%),
+		rgb(255 156 60)
+	);
+	border-image-slice: 1;
+	border-width: 1px;
+}
+
+.custombb {
+	border-image-source: linear-gradient(
+		to top,
+		rgb(100 15 241 / 90%),
+		rgb(255 156 60)
+	);
+	border-image-slice: 1;
+	border-width: 1px;
+}
+
+.custombbb {
+	border-image-source: linear-gradient(
+		to right,
+		rgb(100 15 241 / 90%),
+		rgb(255 156 60 / 89%)
+	);
+	border-image-slice: 1;
+	border-width: 1px;
+}
