@@ -23,9 +23,9 @@ body {
 
 .customb {
 	border-image-source: linear-gradient(
-		to left,
-		rgb(100 15 241 / 80%),
-		rgb(255 156 60)
+		to top,
+		rgb(19 18 18 / 80%),
+		rgb(138 36 218 / 72%)
 	);
 	border-image-slice: 1;
 	border-width: 1px;
@@ -41,20 +41,14 @@ body {
 	border-width: 1px;
 }
 
-.custombbb {
-	border-image-source: linear-gradient(
-		to right,
-		rgb(100 15 241 / 90%),
-		rgb(255 156 60 / 89%)
-	);
-	border-image-slice: 1;
-	border-width: 1px;
-}
-
 h2.borderh2 {
 	-webkit-text-stroke: 1px #fff;
 }
 
 span.diffout {
 	-webkit-text-stroke: 1px #9333ea;
+}
+
+h2.lightrh2 {
+	-webkit-text-stroke: 1px #111;
 }

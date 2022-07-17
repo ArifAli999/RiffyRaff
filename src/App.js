@@ -26,6 +26,7 @@ function App() {
         <AboutMe />
         <TechStack />
         <ProjectPage />
+        <OffersSect />
 
 
         <div className='mt-10 p-4 bg-darkgray mb-6 h-full border-t border-bordergray'>
