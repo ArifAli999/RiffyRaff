@@ -50,3 +50,11 @@ body {
 	border-image-slice: 1;
 	border-width: 1px;
 }
+
+h2.borderh2 {
+	-webkit-text-stroke: 1px #fff;
+}
+
+span.diffout {
+	-webkit-text-stroke: 1px #9333ea;
+}

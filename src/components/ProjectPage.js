@@ -3,13 +3,14 @@ import ProjectComp from './ProjectComp'
 
 function ProjectPage() {
     return (
-        <div className='mt-20  w-full  mb-20'>
-            <div className='text-mediumgray flex h-[100px] flex-nowrap items-center text-xl font-popp tracking-wider	mb-10 w-full bg-tonedblack  uppercase'>
+        <div className='mt-20  w-full  mb-20 relative'>
+            <div className='text-lightgray flex  h-[100px] mt-0 p-0 flex-nowrap items-center text-xl font-popp tracking-wider	mb-10 w-full bg-  uppercase '>
                 <div className='w-full overflow-clip'>
-                    <h2 className='text-4xl md:text-6xl whitespace-pre'> PROJECTS <span className='text-purple-500'>PROJECTS </span>
-                        PROJECTS <span className='text-gray-300'>PROJECTS </span>
-                        PROJECTS <span className='text-purple-500'>PROJECTS </span></h2>
+                    <h2 className='text-4xl absolute top-0 md:text-8xl whitespace-pre -ml-14 text-lightblack borderh2'> PROJECTS <span className='diffout'>WORK </span>
+                        PROJECTS <span className='diffout'>WORK </span>
+                        PROJECTS <span className='text-gray-'>WORK</span>PROJECTS</h2>
                 </div>
+
             </div>
 
             <div className='grid md:grid-cols-3 gap-8 mt-20 mb-10 w-[80%] mx-auto'>
