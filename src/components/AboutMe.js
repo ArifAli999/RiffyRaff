@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import ServicesSect from './ServicesSect';
+import { motion } from "framer-motion"
 
 function AboutMe() {
     const [show, setShow] = useState(false);
@@ -13,9 +14,13 @@ function AboutMe() {
         <div className='mt-20  w-full  mb-20 relative'>
             <div className='text-lightgray flex mb-20 h-[100px] mt-0 p-0 flex-nowrap items-center text-xl font-popp tracking-wider	 w-full bg-  uppercase '>
                 <div className='w-full overflow-clip'>
-                    <h2 className='text-4xl absolute top-0 md:text-8xl whitespace-pre -ml-14 text-lightblack borderh2'> ABOUT <span className='diffout'>ME </span>
+                    <motion.h2
+                        initial={{ opacity: 0.7, x: -400 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 3.6 }}
+                        className='text-4xl absolute top-0 md:text-8xl whitespace-pre -ml-14 text-lightblack borderh2'> ABOUT <span className='diffout'>ME </span>
                         ABOUT <span className='diffout'>ME </span>
-                        ABOUT <span className='text-gray-'>ME</span>ABOUT</h2>
+                        ABOUT <span className='text-gray-'>ME</span>ABOUT</motion.h2>
                 </div>
 
             </div>

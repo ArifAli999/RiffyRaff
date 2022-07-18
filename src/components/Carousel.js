@@ -27,7 +27,9 @@ export default function Carousel({ title, aim, pro, tech, skills }) {
                                             } h-5 w-5 text-purple-500`}
                                     />
                                 </Disclosure.Button>
-                                <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500 border-b border-bordergray">
+                                <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500 border-b border-bordergray"
+
+                                >
                                     {aim}
                                 </Disclosure.Panel>
                             </>
