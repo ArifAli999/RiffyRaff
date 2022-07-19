@@ -28,8 +28,8 @@ function AboutMe() {
 
             <motion.div
                 whileInView={{ opacity: 1 }}
-                transition={{ duration: 3.8, type: 'spring' }}
-                initial={{ opacity: 0.5 }}
+                transition={{ duration: 2.5, type: 'spring' }}
+                initial={{ opacity: 0 }}
 
                 className='flex  w-[80%]  h-full z-50 mx-auto justify-content-center '>
 
