@@ -12,12 +12,12 @@ function AboutMe() {
 
 
         <div className='mt-20  w-full  mb-20 relative' id='about'>
-            <div className='text-lightgray flex mb-20 h-[100px] mt-0 p-0 flex-nowrap items-center text-xl font-popp tracking-wider	 w-full bg-  uppercase '>
+            <div className='text-lightgray flex mb-0 md:mb-20 h-[100px] mt-0 p-0 flex-nowrap items-center text-xl font-popp tracking-wider	 w-full bg-  uppercase '>
                 <div className='w-full overflow-clip'>
                     <motion.h2
                         initial={{ opacity: 0.7, x: -300 }}
                         whileInView={{ opacity: 1, x: 0 }}
-                        transition={{ duration: 2.5 }}
+                        transition={{ duration: 3.5, bounce: 0.6, type: 'spring' }}
                         className='text-4xl absolute top-0 md:text-8xl whitespace-pre -ml-14 text-lightblack borderh2'> ABOUT <span className='diffout'>ME </span>
                         ABOUT<span className='diffout'> ME </span>
                         ABOUT <span className='diffout'>ME </span>ABOUT
@@ -27,9 +27,10 @@ function AboutMe() {
             </div>
 
             <motion.div
-                whileInView={{ opacity: 1 }}
-                transition={{ duration: 2.5, type: 'spring' }}
-                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1.5, type: 'ease' }}
+                initial={{ opacity: 1, y: 100 }}
+
 
                 className='flex  w-[80%]  h-full z-50 mx-auto justify-content-center '>
 
@@ -37,7 +38,7 @@ function AboutMe() {
 
 
                 <div
-                    className=' p-8 col-span-8  bg w-full '>
+                    className=' p-4 col-span-8  bg w-full '>
 
                     <p className='text-white/80 leading-loose font-popp mx-auto w-[90%] font-light text-base    transition-all duration-100 ease-linear mb-6'>
                         Hey there, my name is <span className='text-violet-600 font-bold'>Arif.</span></p>
