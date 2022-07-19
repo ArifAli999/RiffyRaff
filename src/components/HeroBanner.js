@@ -17,7 +17,7 @@ function HeroBanner() {
                 x: 0,
                 opacity: 1,
                 transition: {
-                    type: 'string', duration: 0.5, bounce: 0.3
+                    type: 'easeIn', duration: 0.2, bounce: 0.3
                 }
             })
         }
@@ -45,7 +45,10 @@ function HeroBanner() {
                     ref={ref}
                     className='text-gray-300/90    mt-2 font-popp leading-normal font-extrabold text-lg md:text-[3vw] tracking-wide	 transition-all duration-200 ease-linear  group-hover:text-gray-300 relative' >Let's build the
                     <motion.p
-                        whileHover={{ rotate: 8 }}
+                        animate={{ rotate: 0 }}
+                        initial={{ rotate: 0 }}
+                        whileInView={{ rotate: 8 }}
+                        transition={{ duration: 2.5, delay: 1, ease: [0.17, 0.67, 0.83, 0.67] }}
                         className='bg-purple-600 rotate-10   px-2 md:px-4 py-2 font-extrabold mr-2 ml-2 display: inline-block'>product</motion.p> you have been dreaming of.
                 </motion.p>
 
