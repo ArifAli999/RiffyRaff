@@ -5,7 +5,7 @@ function ServicesSect() {
     return (
         <div className='w-full  z-50  mt-10 '>
 
-            <div className='grid md:grid-cols-3 gap-4 mt-10  h-min w-[85%] mx-auto'>
+            <div className='grid md:grid-cols-1 gap-4 mt-10  h-min md:w-[50%] mx-auto'>
 
 
 
