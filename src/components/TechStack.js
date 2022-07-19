@@ -5,7 +5,7 @@ import { TbBrandNextjs } from 'react-icons/tb';
 
 function TechStack() {
     return (
-        <div className='w-full border-t border-darkgray border-b mt-10  p-6 h-[150px]  '>
+        <div className='w-full border-t border-darkgray border-b mt-10  p-6 h-[150px]  ' id='techstack'>
 
             <div className='h-full flex items-center w-[85%] mx-auto gap-4 md:gap-10 md:flex-row md:flex-nowrap flex-wrap'>
                 <SiJavascript size={40} className='text-gray-500 transition-all duration-300 ease-in-out hover:-translate-y-1 hover:text-yellow-500 rounded-sm  flex-1' />

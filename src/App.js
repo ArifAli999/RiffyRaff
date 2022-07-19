@@ -13,8 +13,10 @@ import { CgWebsite } from 'react-icons/cg';
 import ProjectPage from './components/ProjectPage';
 import { motion, useScroll } from "framer-motion";
 
+
 function App() {
   const { scrollYProgress } = useScroll();
+
 
   return (
     <div className=" bg-lightblack w-full min-h-screen overflow-hidden scrollbar-hide">
@@ -22,6 +24,7 @@ function App() {
         className="progress-bar"
         style={{ scaleX: scrollYProgress }}
       />
+
 
       <div className='flex flex-col w-full min-h-[100vh]'>
         <Header />
@@ -32,7 +35,7 @@ function App() {
         <AboutMe />
         <TechStack />
         <ProjectPage />
-        <OffersSect />
+
       </div>
 
 

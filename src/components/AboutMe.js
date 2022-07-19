@@ -11,7 +11,7 @@ function AboutMe() {
 
 
 
-        <div className='mt-20  w-full  mb-20 relative'>
+        <div className='mt-20  w-full  mb-20 relative' id='about'>
             <div className='text-lightgray flex mb-20 h-[100px] mt-0 p-0 flex-nowrap items-center text-xl font-popp tracking-wider	 w-full bg-  uppercase '>
                 <div className='w-full overflow-clip'>
                     <motion.h2
@@ -28,8 +28,8 @@ function AboutMe() {
 
             <motion.div
                 whileInView={{ opacity: 1 }}
-                transition={{ duration: 1.8 }}
-                initial={{ opacity: 0 }}
+                transition={{ duration: 3.8, type: 'spring' }}
+                initial={{ opacity: 0.5 }}
 
                 className='flex  w-[80%]  h-full z-50 mx-auto justify-content-center '>
 
@@ -52,7 +52,7 @@ function AboutMe() {
 
                     <p className='text-gray-300/80 font-popp mt-2 leading-loose font-extralight text-base	 mx-auto w-[90%]'>
                         My interest in software and web development started back when I was 15 and was playing GTA San Andreas multiplayer, I discovered people were expanding and adding more to the game and decided I had to try it for myself, I started learning <a className='text-blue-400  underline-offset-2 hover:text-purple-600 transition-all duration-300 ease-linear' href='https://jamstack.org/'>LUA</a> which was used to write the scripts for the game,
-                        After learning enough I had decided to start a server with a friend of mine, Then I discovered Wordpress as I had to create a website for my server which lead me down to a path of discovering my passion.</p>
+                        After learning enough I had decided to start a server with a friend of mine, Then I discovered Wordpress and got into web development as I had to create a website for my server which lead me down to a path of discovering my passion, my career and my hobby.</p>
                 </div>
 
 

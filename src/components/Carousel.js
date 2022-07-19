@@ -3,6 +3,8 @@ import { BiChevronDown } from 'react-icons/bi'
 import CarouselPanel from './CarouselPanel'
 import { AiFillGithub } from 'react-icons/ai'
 import { GoLinkExternal } from 'react-icons/go'
+import { Switch, Route } from 'react-router-dom';
+
 
 export default function Carousel({ title, aim, pro, tech, skills }) {
     return (
