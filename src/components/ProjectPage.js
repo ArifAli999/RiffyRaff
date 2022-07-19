@@ -7,8 +7,8 @@ import ServicesSect from './ServicesSect'
 
 function ProjectPage() {
     return (
-        <div className='mt-20  w-full  mb-20 relative' id='work'>
-            <div className='text-lightgray flex mb-20 h-[100px] mt-0 p-0 flex-nowrap items-center text-xl font-popp tracking-wider	 w-full bg-  uppercase '>
+        <div className='mt-20  w-full  mb-0 relative' id='work'>
+            <div className='text-lightgray flex mb-10 md:mb-20 h-fit md:h-[100px] mt-0 p-0 flex-nowrap items-center text-xl font-popp tracking-wider	 w-full bg-  uppercase '>
                 <div className='w-full overflow-clip'>
                     <motion.h2
                         initial={{ opacity: 0.7, x: -300 }}
@@ -22,7 +22,7 @@ function ProjectPage() {
 
             </div>
 
-            <div className='mt-20'>
+            <div className='md:mt-0 mb-10'>
 
                 <ServicesSect />
             </div>
