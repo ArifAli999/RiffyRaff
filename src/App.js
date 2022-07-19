@@ -11,11 +11,17 @@ import OffersSect from './components/OffersSect';
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 import { CgWebsite } from 'react-icons/cg';
 import ProjectPage from './components/ProjectPage';
+import { motion, useScroll } from "framer-motion";
 
 function App() {
+  const { scrollYProgress } = useScroll();
 
   return (
-    <div className=" bg-lightblack w-full min-h-screen overflow-hidden ">
+    <div className=" bg-lightblack w-full min-h-screen overflow-hidden scrollbar-hide">
+      <motion.div
+        className="progress-bar"
+        style={{ scaleX: scrollYProgress }}
+      />
 
       <div className='flex flex-col w-full min-h-[100vh]'>
         <Header />
@@ -27,41 +33,6 @@ function App() {
         <TechStack />
         <ProjectPage />
         <OffersSect />
-
-
-        <div className='mt-10 p-4 bg-darkgray mb-6 h-full border-t border-bordergray'>
-
-          <div className='flex p-4 h-fit w-[80%] mx-auto'>
-
-
-            <div className='w-full h-fit flex-1 '>
-              <div className='p-0 flex flex-col w-full h-full gap-10'>
-                <div className='p-4 bg-tonedblack border-b border-bordergray'>
-                  Design
-
-                </div>
-
-                <div className='p-4 bg-tonedblack border-b border-bordergray'>
-                  Design
-
-                </div>
-
-                <div className='p-4 bg-tonedblack border-b border-bordergray'>
-                  Design
-
-                </div>
-
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
-
-
       </div>
 
 
