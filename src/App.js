@@ -8,11 +8,10 @@ import TechStack from './components/TechStack';
 import AboutMe from './components/AboutMe';
 import ServicesSect from './components/ServicesSect';
 import OffersSect from './components/OffersSect';
-import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
-import { CgWebsite } from 'react-icons/cg';
 import ProjectPage from './components/ProjectPage';
 import { motion, useScroll } from "framer-motion";
-
+import ContactPage from './components/ContactPage';
+import SocialBanner from './components/SocialBanner'
 
 function App() {
   const { scrollYProgress } = useScroll();
@@ -35,6 +34,8 @@ function App() {
         <AboutMe />
         <TechStack />
         <ProjectPage />
+
+        <ContactPage />
 
       </div>
 
