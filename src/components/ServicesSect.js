@@ -47,7 +47,8 @@ function ServicesSect() {
                                 <p className='mt-4 text-gray-500'>A full brief explanation of the development process, design process and learning outcomes can be found on my blog.</p></p></>}
                             pro={<><p className='text-gray-300 text-xs px-4 py-4'>This application provides a lot functionality such as user authetication, dynamic post pages, user profiles, user profile settings, favourites, user bookmark, bookmark lists and much more.</p><br />
                             </>}
-
+                            github={'https://github.com/ArifAli999/PintrestClone'}
+                            link={'https://pintrest-clone-beta.vercel.app/'}
                             tech={<div className='flex flex-col'>
                                 <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>Next.js was used as the front end and back end.</p>
                                 <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>NextJS serverless API Routes were used to connect to Firestore using the Firestore NodeJS SDK.</p>
@@ -66,7 +67,8 @@ function ServicesSect() {
                             </>}
                             pro={<><p className='text-gray-300 text-xs p-4'>This application provides a lot of functionality such as user auth, user storage, user profile, profile settings, tweet, media tweets, like tweets, reply to tweets, delete/edit tweets, bookmark tweets, persistent layouts and much more.</p><br />
                             </>}
-
+                            github={'https://github.com/ArifAli999/TwitterClone'}
+                            link={'https://twitter-clone-roan-two.vercel.app'}
                             tech={<div className='flex flex-col'><p className='text-gray-400 text-xs border-b p-4 border-lightgray'>Next.js was used as the front end and Supabase JS SDK was used for the backend.</p>
                                 <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>The entire design and layout of the application was created from scratch using Tailwind CSS only.</p>
                                 <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>SWR was used for cache and server state managment.</p>
@@ -86,7 +88,8 @@ function ServicesSect() {
                                 This application provides all the core functionalities of an eSports tracker, It was developed with performance as a vital and performs exceptionally well in terms of FCP and other vital web analytics.
                                 The application allows users to find and track let users find and track any live, upcoming or past eSports fixture. </p><br />
                             </>}
-
+                            github={'#'}
+                            link={'https://mytactic.vercel.app/'}
                             tech={<div className='flex flex-col'><p className='text-gray-400 text-xs border-b p-4 border-lightgray'>Next.js was used as the front end.</p>
                                 <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>The entire design and layout of the application was created from scratch using vanilla CSS and Bulma.</p>
                                 <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>SWR was used for cache and server state managment.</p>
@@ -102,13 +105,14 @@ function ServicesSect() {
                     </motion.li>
 
                     <motion.li variants={item}>
-                        <Carousel title='eCommerce Application'
+                        <Carousel title='eCommerce Application.'
                             aim={<><p className='text-gray-300 text-xs p-4'>An eCommerce application I built as per the provided requirements, The client was looking for a low cost alternative to Shopify but still maintain the core and essential features of an eCommerce. I provided a low cost solution by implenting a free headless eCommerce and saving the client over $200 annually.</p></>}
                             pro={<><p className='text-gray-300 text-xs p-4'>
                                 This application provides all the core functionalities of a traditional eCommerce app, It was developed with performance as a vital and performs exceptionally well in terms of FCP and other vital web analytics as all my other applications.
                                 The application lets users place an order, lets admin manage inventory and stock, pictures, variants, orders and so much more. </p><br />
                             </>}
-
+                            github={'https://github.com/ArifAli999/swetstore'}
+                            link={'https://sweet-store.vercel.app/'}
                             tech={<div className='flex flex-col'>
                                 <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>Next.js was used at the front end of the application, Tailwind CSS was used for the front end development along with Framer motion to add animation.</p>
                                 <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>React Context API was used for managing state.</p>
@@ -119,6 +123,54 @@ function ServicesSect() {
                                 <br /><br />
                                 This application helped me learn how to implement and integrate Stripe API for developing SaaS products, I also mastered the Context API while working on this project casue that was massively used throughout.
                                 I gained some invaluable experience with developing modern aesthetic and user friendly UI's. I also started learning a new animation library known as Framer due to this project.</p></>}
+                        />
+                    </motion.li>
+
+                    <motion.li variants={item}>
+                        <Carousel title='Self Checkout System.'
+                            aim={<><p className='text-gray-300 text-xs p-4'>This was a fulstack web application developed along with a team of 3 other developers, We worked in an agile process to implement a self checkout system for a restaurant based in Newcastle during the pandemic.</p></>}
+                            pro={<div className='flex flex-col'>
+                                <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>Lets customers scan a QR code and access the menu of the restaurant and make an order directly.</p>
+                                <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>Stripe payment integration along with Apple pay.</p>
+                                <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>Admin - Live current orders, past orders, food inventory, dish availability, reservation managment, payment history, recepits.</p>
+                                <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>Reservation System - Users can book a table at the restaurant in advance, admins also have the right to edit/delelete reservations..</p>
+                            </div>}
+                            github={'https://github.com/Domas112/KV6002-Team-Project/tree/main'}
+                            link={'#'}
+                            tech={<div className='flex flex-col'>
+                                <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>OOP PHP, HTML, CSS, Vanila JS, Bootstrap</p>
+                                <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>MySQL and PhpMyadmin for data managment.</p>
+                                <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>Stripe for payments.</p></div>}
+                            skills={<><p className='text-gray-400 text-xs p-4'>
+                                This appication was a really good learning experience especially as I got to work along side a bunch of talented developers and its always nice to look at things from a different fresh perspective.
+
+                                <br />
+                                This application gave me confidence in my abilities to implement a full stack web application without the use of any kind of web frameworks.</p></>}
+                        />
+                    </motion.li>
+
+                    <motion.li variants={item}>
+                        <Carousel title='Global Warming Buzz Tracker.'
+                            aim={<><p className='text-gray-300 text-xs p-4'>
+                                This was an application built as a university project which I believe contributed to a lot and was one of the most interesting projects I had done at university.
+                            </p></>}
+                            pro={<div className='flex flex-col'>
+                                <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>
+                                    This application uses the users twitter accounts to show them a map of tweets regarding global warming. It also lets them post tweets to their twitter account within the app.</p>
+                            </div>}
+                            github={'https://github.com/ArifAli999/TwittApii'}
+                            link={'https://twitt-apii.vercel.app/'}
+                            tech={<div className='flex flex-col'>
+                                <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>NextJS and Tailwind CSS were used for the front end.</p>
+                                <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>Google Maps API, Google Geocoding API, Google Distance Matrix API, Twitter API</p>
+                                <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>Twitter OAuth and Next-Auth</p>
+                                <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>Serverless Functions.</p>
+                            </div>}
+                            skills={<><p className='text-gray-400 text-xs p-4'>
+                                This appication was a really good learning experience especially as I got to work along side a bunch of talented developers and its always nice to look at things from a different fresh perspective.
+
+                                <br />
+                                This application gave me confidence in my abilities to implement a full stack web application without the use of any kind of web frameworks.</p></>}
                         />
                     </motion.li>
 

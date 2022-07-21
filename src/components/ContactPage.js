@@ -24,9 +24,9 @@ function ContactPage() {
                 message
             };
 
-            // emailjs.send(serviceId, templateId, templateParams, userId)
-            //    .then(response => console.log(response))
-            //  .then(error => console.log(error));
+            emailjs.send(serviceId, templateId, templateParams, userId)
+                .then(response => console.log(response))
+                .then(error => console.log(error));
 
 
             setName('');
@@ -37,13 +37,34 @@ function ContactPage() {
             alert('Please fill in all fields.');
         }
     }
+    const container = {
+        hidden: { opacity: 0, transition: { when: "afterChildren" } },
+
+        show: {
+            opacity: 1,
+            transition: {
+
+                staggerChildren: 5.5,
+
+
+
+
+            }
+        }
+    }
+
+    const item = {
+        hidden: { opacity: 0, transition: { duration: 2 } },
+        show: { opacity: 1, transition: { duration: 2 } }
+    }
+
 
 
     return (
-        <div className='w-full  h-full'>
-            <div className='flex flex-col min-h-[300px] w-full relative'>
-                <div className='text-white flex mb-0 md:mb-20 h-[100px] mt-0 p-0 flex-nowrap items-center text-xl font-popp tracking-wider	 w-full bg-  uppercase '>
-                    <div className='w-full overflow-clip'>
+        <div className='w-full h-full mb-6' id='contact'>
+            <div className='flex flex-col  w-full relative'>
+                <div className='text-white flex mb-0 md:mb- h-[100px] mt-0 p-0 flex-nowrap items-center text-xl font-popp tracking-wider	 w-full bg-  uppercase '>
+                    <div className='w-full overflow-clip '>
                         <motion.h2
                             initial={{ opacity: 0.7, x: -300 }}
                             whileInView={{ opacity: 1, x: 0 }}
@@ -59,11 +80,11 @@ function ContactPage() {
 
                 </div>
 
-                <div className='bg-[#161717]/95   mt-0 mb-10'>
+                <div className='bg-[#161717] z-50 min-h-[550px]  -mt-2 mb-10'>
 
-                    <motion.div className='flex w-[80%] p-4 mx-auto gap-10 '>
+                    <motion.div className='flex w-[80%] md:flex-row flex-col p-4 mx-auto gap-10 '>
                         <AnimateSharedLayout>
-                            <motion.div className='w-[50%]' layout>
+                            <motion.div className='md:w-[50%] ' layout>
 
 
 
@@ -77,28 +98,37 @@ function ContactPage() {
 
 
 
-                        <div className='text-white w-1/2 '>
-                            <div className='mt-10 flex flex-col gap-6'>
+                        <div className='text-white md:w-1/2  mb-10'>
+                            <div className='mt-10 flex flex-col gap-6 items-center md:items-start'>
 
-                                <div className=' rounded p-0  '>
+                                <div className=' rounded p-0  flex flex-col justify-between'>
 
-                                    <ul className='list-none p-4 flex flex-col gap-10 text-white'>
-                                        <li className='flex gap-4 items-center '>
+                                    <motion.ul
+                                        variants={container}
+                                        whileInView="show"
+                                        initial="hidden"
+                                        className='list-none flex-wrap md:p-4 flex md:flex-col gap-10 justify-center text-white'>
+                                        <li className='flex md:gap-4 items-center  ' variants={item}>
                                             <AiOutlineMail size={20} />
-                                            <span className='text-sm'>aarif14@hotmail.com</span>
+                                            <a className='text-sm'>aarif14@hotmail.com</a>
                                         </li>
-                                        <li className='flex gap-4 items-center '>
+                                        <li className='flex md:gap-4 items-center ' variants={item}>
                                             <AiOutlineMail size={20} />
-                                            <span className='text-sm'>aarif14@hotmail.com</span>
+                                            <a className='text-sm hover:text-purple-500 transition-all duration-300 ease-linear' href='https://www.linkedin.com/in/ali-arif-a58bb8240/' target="_blank" rel="noopener noreferrer">LinkedIn</a>
                                         </li>
-                                        <li className='flex gap-4 items-center '>
+                                        <li className='flex md:gap-4 items-center ' variants={item}>
                                             <AiOutlineMail size={20} />
-                                            <span className='text-sm'>aarif14@hotmail.com</span>
+                                            <a className='text-sm hover:text-purple-500 transition-all duration-300 ease-linear' href='https://github.com/ArifAli999' target="_blank" rel="noopener noreferrer">Github</a>
                                         </li>
-                                        <li className='flex gap-4 items-center '>
+
+                                    </motion.ul>
+
+                                    <ul className='list-none flex-wrap md:p-4  mt-10 flex md:flex-col gap-10 text-white justify-center'>
+                                        <li className='flex md:gap-4 items-center '>
                                             <AiOutlineMail size={20} />
-                                            <span className='text-sm'>aarif14@hotmail.com</span>
+                                            <a className='text-sm'>Blog</a>
                                         </li>
+
                                     </ul>
 
                                 </div>

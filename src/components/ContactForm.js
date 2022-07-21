@@ -10,10 +10,14 @@ function ContactForm({ submit, email, name, message, setName, setEmail, setMessa
 
         <AnimatePresence>
 
+
             <motion.div layout
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0, x: -500, delay: 10 }}
-                className='text-black flex flex-col p-8 gap-4 mt-5 w-[100%]'>
+                initial={{ opacity: 0.7, x: -300 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 1.6 }}
+                exit={{ x: 500 }}
+                className='text-black flex flex-col md:p-8 gap-4 mt-5 w-[100%] h-full'>
 
                 {emailSent && <ThankYou />}
 
@@ -34,9 +38,7 @@ function ContactForm({ submit, email, name, message, setName, setEmail, setMessa
                         </div>
 
 
-                        <div>
-                            <p>Hey</p>
-                        </div>
+
 
                     </div></>)}
 
@@ -44,7 +46,8 @@ function ContactForm({ submit, email, name, message, setName, setEmail, setMessa
 
             </motion.div>
 
-        </AnimatePresence>
+        </AnimatePresence >
+
 
 
 

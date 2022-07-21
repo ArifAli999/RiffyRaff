@@ -12,6 +12,7 @@ import ProjectPage from './components/ProjectPage';
 import { motion, useScroll } from "framer-motion";
 import ContactPage from './components/ContactPage';
 import SocialBanner from './components/SocialBanner'
+import FooterComp from './components/Footer';
 
 function App() {
   const { scrollYProgress } = useScroll();
@@ -36,6 +37,8 @@ function App() {
         <ProjectPage />
 
         <ContactPage />
+
+        <FooterComp />
 
       </div>
 

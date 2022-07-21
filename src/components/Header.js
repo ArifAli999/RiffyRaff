@@ -9,28 +9,28 @@ function Header() {
                     <Link to="techstack"
                         spy={true}
                         smooth={true}>
-                        <li className='list-none text-white flex-1'>Hello there,</li>
+                        <li className='list-none text-white flex-1 '></li>
                     </Link>
                 </div>
                 <div className='w-fit'>
                     <Link to="about"
                         spy={true}
                         smooth={true}>
-                        <li className='list-none text-purple-500 flex-1 font-popp text-sm font-semibold'>WHO</li>
+                        <li className='list-none text-purple-500 flex-1 font-popp text-sm font-semibold hover:underline hover:underline-offset-4 hover:decoration-white'>WHO</li>
                     </Link>
                 </div>
                 <div className='w-fit'>
                     <Link to="work"
                         spy={true}
                         smooth={true}>
-                        <li className='list-none text-purple-500 flex-1 font-popp text-sm font-semibold'>WORK</li>
+                        <li className='list-none text-purple-500 flex-1 font-popp text-sm font-semibold hover:underline hover:underline-offset-4 hover:decoration-white'>WORK</li>
                     </Link>
                 </div>
                 <div className='w-fit'>
-                    <Link to="techstack"
+                    <Link to="contact"
                         spy={true}
                         smooth={true}>
-                        <li className='list-none text-purple-500 flex-1 font-popp text-sm font-semibold'>LETS WORK</li>
+                        <li className='list-none text-purple-500 flex-1 font-popp text-sm font-semibold hover:underline hover:underline-offset-4 hover:decoration-white'>LETS WORK</li>
                     </Link>
                 </div>
 
