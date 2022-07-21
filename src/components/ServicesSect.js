@@ -153,10 +153,12 @@ function ServicesSect() {
                         <Carousel title='Global Warming Buzz Tracker.'
                             aim={<><p className='text-gray-300 text-xs p-4'>
                                 This was an application built as a university project which I believe contributed to a lot and was one of the most interesting projects I had done at university.
+                                It was focused on Web APIs and Cloud Architecture.
                             </p></>}
                             pro={<div className='flex flex-col'>
                                 <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>
-                                    This application uses the users twitter accounts to show them a map of tweets regarding global warming. It also lets them post tweets to their twitter account within the app.</p>
+                                    This application uses the users twitter accounts to show them a map of tweets regarding global warming. It also lets them post tweets to their twitter account within the app. <br /><br />
+                                    Further this application was deployed on a virtual machine instance provided by Google Cloud.</p>
                             </div>}
                             github={'https://github.com/ArifAli999/TwittApii'}
                             link={'https://twitt-apii.vercel.app/'}
@@ -165,12 +167,12 @@ function ServicesSect() {
                                 <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>Google Maps API, Google Geocoding API, Google Distance Matrix API, Twitter API</p>
                                 <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>Twitter OAuth and Next-Auth</p>
                                 <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>Serverless Functions.</p>
+                                <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>Google Cloud VM for deployment.</p>
                             </div>}
                             skills={<><p className='text-gray-400 text-xs p-4'>
-                                This appication was a really good learning experience especially as I got to work along side a bunch of talented developers and its always nice to look at things from a different fresh perspective.
-
-                                <br />
-                                This application gave me confidence in my abilities to implement a full stack web application without the use of any kind of web frameworks.</p></>}
+                                This application helped me learn a lot about the cloud and how it works. In this module at university we explored mainly Azure and AWS but on my own
+                                I got into Google Cloud and found it the easiest to use due to the simplicity and Google's superiror UI/UX. I deployed a modern NextJS application on a VM instance, So I had to work on the environment and manage the VM for the assesment period.
+                            </p></>}
                         />
                     </motion.li>
 
