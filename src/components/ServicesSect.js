@@ -138,9 +138,11 @@ function ServicesSect() {
                             github={'https://github.com/Domas112/KV6002-Team-Project/tree/main'}
                             link={'#'}
                             tech={<div className='flex flex-col'>
-                                <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>OOP PHP, HTML, CSS, Vanila JS, Bootstrap</p>
-                                <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>MySQL and PhpMyadmin for data managment.</p>
-                                <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>Stripe for payments.</p></div>}
+                                <p className='text-gray-400 text-xs border-b p-4 border-lightgray w-full'>OOP PHP was used mainly for the core of the application.</p>
+                                <p className='text-gray-400 text-xs border-b p-4 border-lightgray w-full'>Bootstrap was used for the styling and user interface development of the application. jQuery was also used to implement certain features.</p>
+                                <p className='text-gray-400 text-xs border-b p-4 border-lightgray w-full'>Stripe for payments and processing orders.</p>
+                                <p className='text-gray-400 text-xs border-b p-4 border-lightgray w-full'>Vanilla Javascript was used throughout the entirety of the application.</p>
+                            </div>}
                             skills={<><p className='text-gray-400 text-xs p-4'>
                                 This appication was a really good learning experience especially as I got to work along side a bunch of talented developers and its always nice to look at things from a different fresh perspective.
 
