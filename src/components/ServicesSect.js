@@ -152,28 +152,35 @@ function ServicesSect() {
                     </motion.li>
 
                     <motion.li variants={item}>
-                        <Carousel title='Global Warming Buzz Tracker.'
+                        <Carousel title='Cross Platform Notes Mobile App.'
                             aim={<><p className='text-gray-300 text-xs p-4'>
-                                This was an application built as a university project which I believe contributed to a lot and was one of the most interesting projects I had done at university.
-                                It was focused on Web APIs and Cloud Architecture.
+                                This was my first project I built to learn and explore React Native, This project helped me gained experience and familarity designing UIs and UX for mobile applications,
+                                The aim was to basically learn and explore mobile development.
+
+
                             </p></>}
                             pro={<div className='flex flex-col'>
                                 <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>
-                                    This application uses the users twitter accounts to show them a map of tweets regarding global warming. It also lets them post tweets to their twitter account within the app. <br /><br />
-                                    Further this application was deployed on a virtual machine instance provided by Google Cloud.</p>
+                                    This application provides most of the functionatily one would expect from a Notes application, Users can create profiles and then create notees, users are
+                                    provided with functionality to edit their notes at any moment, users can also delete a note and the note is retained in Recently Deleted which can be used to retrive or permanently delete a note.
+                                    The application also provides features such as Usernames, ability to change email, username and password.
+                                    The application also provides stack navigation, modal navigations, tabs and many custom navigations.</p>
                             </div>}
-                            github={'https://github.com/ArifAli999/TwittApii'}
+                            github={'https://github.com/ArifAli999/Native_app'}
                             link={'https://twitt-apii.vercel.app/'}
                             tech={<div className='flex flex-col'>
-                                <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>NextJS and Tailwind CSS were used for the front end.</p>
-                                <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>Google Maps API, Google Geocoding API, Google Distance Matrix API, Twitter API</p>
-                                <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>Twitter OAuth and Next-Auth</p>
-                                <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>Serverless Functions.</p>
-                                <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>Google Cloud VM for deployment.</p>
+                                <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>React Native and Expo Framework was used to setup and get to development quickly</p>
+                                <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>React Native Navigation was used for creating and implementing all kinds of Navigation functionalities</p>
+                                <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>Google Firebase was used for the backend, Firestore Databas and Firebase Auth were used.</p>
+                                <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>Tailwind CSS was used to develop the design and UI</p>
+                                <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>React Query was used to make sure everything on the application is always Real Time.</p>
+                                <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>Zustand was used for global state managment of the application.</p>
+
                             </div>}
                             skills={<><p className='text-gray-400 text-xs p-4'>
-                                This application helped me learn a lot about the cloud and how it works. In this module at university we explored mainly Azure and AWS but on my own
-                                I got into Google Cloud and found it the easiest to use due to the simplicity and Google's superiror UI/UX. I deployed a modern NextJS application on a VM instance, So I had to work on the environment and manage the VM for the assesment period.
+                                This application gave me tremendous experiece and confidence in developing modernn mobile applications that run smoothly on any device,
+                                I realized my skills from using React on the web could be easily transferred over and I was able to quickly develop advanced features such as adding real time features, developing complex UI features such as Modal Navigation, Stack Navigation and more.
+
                             </p></>}
                         />
                     </motion.li>
