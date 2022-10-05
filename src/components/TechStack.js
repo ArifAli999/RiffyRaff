@@ -9,7 +9,6 @@ function TechStack() {
 
             <div className='h-full flex items-center w-[85%] mx-auto gap-4 md:gap-10 md:flex-row md:flex-nowrap flex-wrap'>
                 <SiJavascript size={40} className='text-gray-500 transition-all duration-300 ease-in-out hover:-translate-y-1 hover:text-yellow-500 rounded-sm  flex-1' />
-                <SiHtml5 size={40} className='text-gray-500 transition-all duration-300 ease-in-out hover:-translate-y-1 hover:text-orange-500 rounded-sm  flex-1' />
                 <SiReact size={40} className='text-gray-500 transition-all duration-300 ease-in-out hover:-translate-y-1 hover:text-blue-300 rounded-sm  flex-1' />
                 <SiMysql size={40} className='text-gray-500 transition-all duration-300 ease-in-out hover:-translate-y-1 hover:text-gray-300 rounded-sm  flex-1' />
                 <SiPhp size={40} className='text-gray-500 transition-all duration-300 ease-in-out hover:-translate-y-1 hover:text-blue-400 rounded-sm flex-1' />

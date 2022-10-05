@@ -152,7 +152,7 @@ function ServicesSect() {
                     </motion.li>
 
                     <motion.li variants={item}>
-                        <Carousel title='Cross Platform Notes Mobile App.'
+                        <Carousel title='Notes Mobile App.'
                             aim={<><p className='text-gray-300 text-xs p-4'>
                                 This was my first project I built to learn and explore React Native, This project helped me gained experience and familarity designing UIs and UX for mobile applications,
                                 The aim was to basically learn and explore mobile development.
