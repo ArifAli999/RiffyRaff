@@ -70,6 +70,7 @@ function AboutMe() {
                         initial="hidden"
                         className='text-gray-300/80 font-popp mt-4 leading-loose font-extralight text-base	 mx-auto '>
                         I'm a front end web developer with a passion for building highly performant, reliable and scalable web applications. I just graduated from Northumbria University, Newcastle with a BSc in Computer Science with Web Development as my major.
+                        Recently I have been working as a Software Engineering Assosciate over at Intelance helping enable and provide digital solutions on a global scale. 
                         <br /><br />
                         I specialize in front end development but I'm also in the process of constantly learning
                         and enhancing my knowledge of the backend technologies as well. I have worked with a wide range of technologies so far and always looking to expore more.
