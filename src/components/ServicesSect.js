@@ -42,7 +42,7 @@ function ServicesSect() {
                     initial="hidden"
                     className='list-none grid md:grid-cols-3 gap-4 mt-10  h-min md:w-[85%] mx-auto'>
                     <motion.li variants={item}>
-                        <Carousel title='Pintrest Clone.'
+                        <Carousel title='Mood Board.'
                             aim={<><p className='text-gray-300 text-xs p-4'>This is a fullstack web application I built to enhance my skills with state managment in modern web apps. State managment is argubly the most important aspect of an application and I had struggled with this aspect in a previous application I worked on.
                                 <p className='mt-4 text-gray-500'>A full brief explanation of the development process, design process and learning outcomes can be found on my blog.</p></p></>}
                             pro={<><p className='text-gray-300 text-xs px-4 py-4'>This application provides a lot functionality such as user authetication, dynamic post pages, user profiles, user profile settings, favourites, user bookmark, bookmark lists and much more.</p><br />
@@ -62,7 +62,7 @@ function ServicesSect() {
                     </motion.li>
 
                     <motion.li variants={item}>
-                        <Carousel title='Twitter Clone.'
+                        <Carousel title='Twitter.'
                             aim={<><p className='text-gray-300 text-xs p-4'>This is a fullstack web application I built to work on my backend skills, The aim of the project was to build an application that has all the core functionalities of twitter, In this process I would learn more about managing databases and complex databases relationships.</p><br />
                             </>}
                             pro={<><p className='text-gray-300 text-xs p-4'>This application provides a lot of functionality such as user auth, user storage, user profile, profile settings, tweet, media tweets, like tweets, reply to tweets, delete/edit tweets, bookmark tweets, persistent layouts and much more.</p><br />
@@ -105,7 +105,7 @@ function ServicesSect() {
                     </motion.li>
 
                     <motion.li variants={item}>
-                        <Carousel title='eCommerce Application.'
+                        <Carousel title='eCommerce Platform .'
                             aim={<><p className='text-gray-300 text-xs p-4'>An eCommerce application I built as per the provided requirements, The client was looking for a low cost alternative to Shopify but still maintain the core and essential features of an eCommerce. I provided a low cost solution by implenting a free headless eCommerce and saving the client over $200 annually.</p></>}
                             pro={<><p className='text-gray-300 text-xs p-4'>
                                 This application provides all the core functionalities of a traditional eCommerce app, It was developed with performance as a vital and performs exceptionally well in terms of FCP and other vital web analytics as all my other applications.
@@ -127,7 +127,7 @@ function ServicesSect() {
                     </motion.li>
 
                     <motion.li variants={item}>
-                        <Carousel title='Self Checkout System.'
+                        <Carousel title='Self Checkout System'
                             aim={<><p className='text-gray-300 text-xs p-4'>This was a fulstack web application developed along with a team of 3 other developers, We worked in an agile process to implement a self checkout system for a restaurant based in Newcastle during the pandemic.</p></>}
                             pro={<div className='flex flex-col'>
                                 <p className='text-gray-400 text-xs border-b p-4 border-lightgray'>Lets customers scan a QR code and access the menu of the restaurant and make an order directly.</p>
@@ -152,7 +152,7 @@ function ServicesSect() {
                     </motion.li>
 
                     <motion.li variants={item}>
-                        <Carousel title='Notes Mobile App.'
+                        <Carousel title='Notes Mobile App'
                             aim={<><p className='text-gray-300 text-xs p-4'>
                                 This was my first project I built to learn and explore React Native, This project helped me gained experience and familarity designing UIs and UX for mobile applications,
                                 The aim was to basically learn and explore mobile development.
